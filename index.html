@@ -5,11 +5,34 @@
 	<meta charset="UTF-8">
 	<script src="index.js" async></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
 	<title>Tic-tac-toe</title>
 </head>
 
 <body>
-
+	<h1>TIC-TAC-TOE!</h1>
+	<div id = 'winnerDiv'>
+		<div id='winnerText'>THE WINNER IS PLAYER 1</div>
+	</div>
+	<div id='selectMode'>
+		<button class = 'selectModeButton' value='AI'>AI</button>
+		<button class = 'selectModeButton' value='NonIA'>1 vs 1</button>
+	</div>
+	<button id = 'reset'>Replay!</button>
+	<div id = baseGameBoard>
+		<div id='gridGameBoard'>
+			<div class = 'gameBoard' id = '00'></div>
+			<div class = 'gameBoard' id = '01'></div>
+			<div class = 'gameBoard' id = '02'></div>
+			<div class = 'gameBoard' id = '10'></div>
+			<div class = 'gameBoard' id = '11'></div>
+			<div class = 'gameBoard' id = '12'></div>
+			<div class = 'gameBoard' id = '20'></div>
+			<div class = 'gameBoard' id = '21'></div>
+			<div class = 'gameBoard' id = '22'></div>
+		</div>
+	</div>
 </body>
 
 </html>

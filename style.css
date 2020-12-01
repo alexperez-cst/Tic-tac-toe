@@ -1,0 +1,72 @@
+body{
+	font-family: 'Inter';
+	margin: auto;
+}
+h1{
+	text-align: center;
+	margin-top: 2%;
+	font-size: 4em;
+	text-shadow: 5px 2px rgba(195, 195, 195, 0.342);
+}
+#selectMode{
+	display: flex;
+	justify-content: center;
+}
+#winnerText{
+	font-size: 5em;
+	color: white;
+	transition: 0.5s;
+}
+#reset{
+	display: none;
+	margin-left: 47%;
+}
+#winnerDiv{
+	display: none;
+	position: sticky;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.644);
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.13);
+}
+button{
+	font-family: 'Inter';
+	color: white;
+	box-shadow: 2px 2px rgba(173, 0, 173, 0.705);
+	border-radius:5px;
+	border:0px;
+	background-color: rgb(182, 137, 202);
+	margin: 1%;
+	width: 8em;
+	height: 3em;
+	transition: 0.5s;
+}
+button:hover{
+	box-shadow: 6px 6px rgba(173, 0, 173, 0.705);
+	margin-right: 1.5% !important;
+}
+#gridGameBoard{
+	display:none;
+	grid-template-columns: repeat(3,8em);
+	grid-template-rows: repeat(3,8em);
+	background-color: white;
+	margin: 6%50%10%40%;
+	transition: 0.5s;
+}
+.gameBoard{
+	font-family: 'Inter';
+	font-size: 4em;
+	border: 2px solid rgb(85, 49, 85);
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+}
+.gameBoard:hover{
+	background-color: rgba(153, 96, 175, 0.664);
+}
